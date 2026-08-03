@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; width: 280px; padding: 16px; margin: 0; }
+    h3 { margin: 0 0 12px 0; font-size: 16px; color: #1a73e8; }
+    .status-badge { display: inline-block; padding: 4px 8px; border-radius: 4px; font-weight: bold; font-size: 12px; margin-bottom: 12px; }
+    .active { background-color: #e6f4ea; color: #137333; }
+    .inactive { background-color: #fce8e6; color: #c5221f; }
+    .form-group { margin-bottom: 12px; }
+    label { display: block; font-size: 12px; margin-bottom: 4px; color: #5f6368; }
+    input { width: 92%; padding: 8px; border: 1px solid #dadce0; border-radius: 4px; font-size: 12px; }
+    button { width: 100%; padding: 10px; border: none; border-radius: 4px; font-weight: 500; cursor: pointer; margin-top: 6px; }
+    .btn-start { background-color: #1a73e8; color: white; }
+    .btn-stop { background-color: #d93025; color: white; }
+  </style>
+</head>
+<body>
+  <h3>Visual AI Agent</h3>
+  <div id="statusBadge" class="status-badge inactive">Status: Stopped</div>
+
+  <div class="form-group">
+    <label for="apiKey">Vision API Key</label>
+    <input type="password" id="apiKey" placeholder="Enter API Key...">
+  </div>
+
+  <button id="toggleBtn" class="btn-start">Start Agent</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
