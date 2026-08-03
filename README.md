@@ -68,4 +68,4 @@ Want to run this yourself? Here is how to wake the agent up:
 6. Click the extension icon in your toolbar, hit **Start Agent**, and watch your console come alive!
 
 ---
-*Built with grit, midnight debugging, and lots of coffee by Pubali.* ☁️✨
+*Built with grit, midnight debugging, and lots of coffee by Elder Sister.* ☁️✨
